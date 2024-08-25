@@ -1,0 +1,100 @@
+/* BtechAdm.css */
+
+/* Container Styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for required field asterisk */
+.required-asterisk {
+  color: red;
+  margin-left: 2px;
+}
+
+/* Heading Styles */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label Styles */
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Arial", sans-serif;
+  color: #555;
+}
+
+/* Input Styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Input Focus Styles */
+.form-control:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
+
+/* Button Styles */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button Hover Styles */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Textarea Styles */
+textarea.form-control {
+  resize: vertical; /* Allow only vertical resizing */
+}
+
+/* Placeholder Styles */
+::placeholder {
+  color: #999;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+
+  .btn-primary {
+    padding: 12px;
+  }
+}

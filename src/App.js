@@ -6,6 +6,7 @@ import LoginSuccess from "./Components/LoginSuccess";
 import AboutUs from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUs";
 import Home from "./Components/Home";
+import BtechAdm from "./Components/BtechAdm/BtechAdm";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login-success" element={<LoginSuccess />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/btechAdm" element={<BtechAdm />} />
       </Routes>
     </div>
   );
